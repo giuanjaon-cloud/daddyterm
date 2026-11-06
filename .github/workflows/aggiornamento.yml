@@ -35,7 +35,7 @@ jobs:
         run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-          git add palinsesto.html
+          git add index.html
           # Verifica se ci sono state effettive modifiche al file prima di fare il commit, per evitare errori
           git diff --quiet && git diff --staged --quiet || git commit -m "🔄 Aggiornamento automatico palinsesto.html"
           git push
