@@ -22,7 +22,7 @@ OFFSET_HOURS = -1  # Sposta gli orari indietro di 1 ora
 
 # Assicura che il file venga salvato nella STESSA DIRECTORY dello script
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
-OUTPUT_FILENAME = os.path.join(SCRIPT_DIR, "palinsesto.html")
+OUTPUT_FILENAME = os.path.join(SCRIPT_DIR, "index.html")
 
 EXCLUDED_CATEGORIES = [
     "Big Brother 👁️ 28 LIVE CAMERA FEEDS",
