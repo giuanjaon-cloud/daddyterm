@@ -18,7 +18,7 @@ import json
 TARGET_URL = "https://dlhd.st/"
 PROXY_URL = "https://proxy.alemagno1994alex.workers.dev/?url=" + urllib.parse.quote(TARGET_URL)
 
-OFFSET_HOURS = 2  # Sposta gli orari in avanti di 2 ore
+OFFSET_HOURS = 1  # Sposta gli orari in avanti di 1 ora
 
 # Assicura che il file venga salvato nella STESSA DIRECTORY dello script
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
